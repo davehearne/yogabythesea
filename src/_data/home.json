@@ -1,6 +1,6 @@
 {
-  "title": "Fernfolio",
-  "image": "src/assets/img/fern-in-hand.jpeg",
-  "image_alt": "Fern in hand",
-  "body": "The super simple portfolio template built with [Eleventy](https://www.11ty.dev/) and [Netlify CMS](https://www.netlifycms.org/)."
+  "title": "Yoga by the Sea",
+  "image": "src/assets/img/yoga-mudra.jpeg",
+  "image_alt": "3 people sitting in a line meditating using prana mudhra",
+  "body": "Welcome to Yoga by the Sea"
 }
