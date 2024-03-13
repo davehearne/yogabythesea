@@ -1,12 +1,12 @@
 ---
 layout: projects.njk
-title: Projects
-date: 2021-01-01
+title: Events
+date: 2024-01-01
 permalink: /projects/index.html
-metaDescription: A sample Projects page
-subtitle: This is the page where all projects will live
+metaDescription: A sample Events page
+subtitle: This is the page where all events will live
 emoji: 💻
 eleventyNavigation:
-  key: Projects
+  key: Events
   order: 3
 ---

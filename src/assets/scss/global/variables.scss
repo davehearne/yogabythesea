@@ -5,6 +5,7 @@
 
   /* Background Colors */
   --color-bg: #fff;
+  --transparent-bg: rgba(255, 255, 255, 0.8);
   --color-bg-secondary: #f7f7f7;
   --color-bg-accent: rgb(25, 64, 114);
   --color-bg-hover: #f3f4f6cc;
@@ -23,7 +24,7 @@
   --font-family-heading: var(--font-family-base);
 
   /* Sizes */
-  --site-width: 850px;
+  --site-width: 1000px;
   --header-height: 66px;
   --header-height-lg: 76px;
 

@@ -8,22 +8,28 @@ section: home
   {# Hero #}
   <div class="hero">
     <div class="hero__col">
+
+    </div>
+    <div class="hero__col">
       <h1 class="hero__title gradient-text">{{ home.title }}</h1>
       {% if home.body %}
         <div class="hero__body">{{ home.body | markdown | safe }}</div>
       {% endif %}
-    </div>
-    <div class="hero__col">
-      {% image
-        home.image,
-        home.image_alt,
-        "(min-width: 1024px) 50vw, 100vw",
-        "hero__image shadow",
-        "eager"
-      %}
+      
     </div>
   </div>
 
+  {# About #}
+  <div class = "list-header">
+    <h2 class="list-header__title">About</h2>
+  </div>
+  <div class="about">
+    <div class="about__col">
+      {% if home.content%}
+        <div class="about__body">{{ home.content | markdown | safe }}</div>
+      {% endif %}
+    </div>
+  </div>
   {# Projects #}
   <div class="list-header">
     <h2 class="list-header__title">Events</h2>
